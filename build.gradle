@@ -34,7 +34,6 @@ apply from: "$projectDir/gradle/versioning.gradle"
 apply plugin: 'eclipse'
 apply plugin: 'spring-boot'
 apply plugin: "io.spring.dependency-management"
-apply plugin: "com.gorylenko.gradle-git-properties"
 
 println version
 
